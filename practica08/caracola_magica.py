@@ -28,7 +28,7 @@ while True:
     
     print("^"*50)
     print()
-    opcion= str(input(f"~Hola subdito, quieres hacerme {D} pregunta? ")).lower()
+    opcion= str(input(f"Hola subdito, ¿quieres hacerme {D} pregunta? ")).lower()
     print()
     print("^"*50)
 
@@ -44,7 +44,7 @@ while True:
     D="otra"
     print("-*"*25)
     print()
-    pregunta=str(input("Que quieres saber subdito? "))
+    pregunta=str(input("¿Que quieres saber subdito? "))
     print()
     print("_"*50)
     print(respuestas_aleatorias)
