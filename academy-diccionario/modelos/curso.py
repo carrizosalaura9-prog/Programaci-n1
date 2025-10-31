@@ -1,36 +1,19 @@
-from main import nombre_del_curso
-from main import cursos
 
-
-def agregar_curso():
-    instructor={}
+def agregarCurso():
     
-    nombre_instructor=input("ingrese el nombre del instructor: ")
-    titulo_instructor=input("ingrese el titulon del instructor: ")
-    edad_instructor=input("ingrese la edad del instructor: ")
-    aula=input("ingrese el aula en la que se llevara a cabo el curso: ")
-
-
-
-    instructor = {
-        "nombre": nombre_instructor,
-        "titulo": titulo_instructor,
-        "edad": edad_instructor,
-    }
-
-    curso = {
-        "instructor": instructor,
-        "aula": aula,
+    NombreInstructor=input("Ingrese el nombre del instructor: ")
+    TituloInstructor=input("Ingrese el titulo del instructor: ")
+    EdadInstructor=input ("Ingrese la edad del instructor: ")
+    NumeroAula=input("Ingrese el aula en la que se llevara a cabo: ")
+    
+    cursos= {
+        "instructor":{
+            "nombre": NombreInstructor,
+            "titulo": TituloInstructor,
+            "edad": EdadInstructor
+        },
+        "aula": NumeroAula,
         "alumnos": {}
-    }
+        }
+    return cursos
 
-
-    cursos[nombre_del_curso] = curso
-
-    return curso
-
-
-
-
-
-    
