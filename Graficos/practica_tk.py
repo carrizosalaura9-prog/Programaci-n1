@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 
 def saludar():
-    etiqueta2.config(text="Hola, "+entrada_texto.get())
+    etiqueta2.config(text=entrada_texto.get())
 
 
 #1. Crear la ventana principal
