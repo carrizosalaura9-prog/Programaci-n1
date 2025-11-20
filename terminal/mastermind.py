@@ -118,5 +118,3 @@ def jugar():
         print(Fore.RED+Style.BRIGHT+"\n Te quedaste sin intentos. ")
         secreto_str= " ".join(codigo_secreto)
         print(f"El codigo secreto era "+secreto_str)
-
-jugar()

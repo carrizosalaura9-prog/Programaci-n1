@@ -17,7 +17,7 @@ etiqueta.grid(row=0,column=0,padx=20,pady=20)
 entrada_texto = ttk.Entry(root,font="Helvica 20")
 entrada_texto.grid(row=0,column=1,padx=10,pady=20)
 
-etiqueta2 = ttk.Label(root,font="Helvetica 30",foreground="#FFFFFF",background="#a23fed")
+etiqueta2 = ttk.Label(root,font="Helvetica 30",foreground="#FFFFFF",background="#9a59cc")
 etiqueta2.grid(row=1,column=0,columnspan=2)
 
 boton = ttk.Button(root,text="Esto es un boton",command=saludar,padding=20)
